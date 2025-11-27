@@ -17,7 +17,7 @@
     {
         "ApplicationName": "Mozilla Firefox",
         "WingetID": "Mozilla.Firefox",
-        "Aliases": ["Firefox"]
+        "Aliases": ["Firefox", "MozillaFirefox"]
     },
     {
         "ApplicationName": "Adobe Acrobat Reader",

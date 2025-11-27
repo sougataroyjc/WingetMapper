@@ -91,15 +91,9 @@ function Search-WingetIntelligent {
         @{ Name = "No Spaces"; Query = ($ApplicationName -replace '\s+', '') }
     )
     
-    # Add first two words strategy for multi-word apps (minimum 2 words required)
-    $words = $cleanedName -split '\s+' | Where-Object { $_.Length -ge 2 }
-    if ($words.Count -ge 2) {
-        $firstTwo = "$($words[0]) $($words[1])"
-        $highConfidenceStrategies += @{ Name = "First Two Words"; Query = $firstTwo }
-    }
-    
-    # REMOVED: First Word Only - causes too many wrong matches
-    # Single word searches produce generic results like "Microsoft" matching "Codium"
+    # REMOVED: First Two Words - causes too many wrong matches
+    # "Microsoft Power" matches both "Power BI" and "Power Automate"
+    # Generic first two words are not specific enough
     
     foreach ($strategy in $highConfidenceStrategies) {
         $query = $strategy.Query
@@ -108,9 +102,14 @@ function Search-WingetIntelligent {
             continue
         }
         
-        # For First Two Words, use non-exact search to allow fuzzy matching
+        # Skip if query is same as a previous strategy (avoid duplicates)
+        if ($query -eq $ApplicationName -and $strategy.Name -ne "Exact Match") {
+            continue
+        }
+        
+        # Split CamelCase uses fuzzy search to handle variations
         $useExact = $true
-        if ($strategy.Name -eq "First Two Words") {
+        if ($strategy.Name -eq "Split CamelCase") {
             $useExact = $false
         }
         
