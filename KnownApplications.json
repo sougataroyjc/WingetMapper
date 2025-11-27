@@ -1,0 +1,612 @@
+[
+    {
+        "ApplicationName": "7-Zip",
+        "WingetID": "7zip.7zip",
+        "Aliases": ["7zip", "7 zip", "sevenzip"]
+    },
+    {
+        "ApplicationName": "VLC Media Player",
+        "WingetID": "VideoLAN.VLC",
+        "Aliases": ["VLC", "VLC Player"]
+    },
+    {
+        "ApplicationName": "Google Chrome",
+        "WingetID": "Google.Chrome",
+        "Aliases": ["Chrome"]
+    },
+    {
+        "ApplicationName": "Mozilla Firefox",
+        "WingetID": "Mozilla.Firefox",
+        "Aliases": ["Firefox"]
+    },
+    {
+        "ApplicationName": "Adobe Acrobat Reader",
+        "WingetID": "Adobe.Acrobat.Reader.64-bit",
+        "Aliases": ["Adobe Reader", "Acrobat Reader", "Adobe Acrobat Reader DC"]
+    },
+    {
+        "ApplicationName": "Microsoft Edge",
+        "WingetID": "Microsoft.Edge",
+        "Aliases": ["Edge"]
+    },
+    {
+        "ApplicationName": "Notepad++",
+        "WingetID": "Notepad++.Notepad++",
+        "Aliases": ["Notepad Plus Plus", "Notepadplusplus"]
+    },
+    {
+        "ApplicationName": "Visual Studio Code",
+        "WingetID": "Microsoft.VisualStudioCode",
+        "Aliases": ["VSCode", "VS Code", "Code"]
+    },
+    {
+        "ApplicationName": "Git",
+        "WingetID": "Git.Git",
+        "Aliases": ["Git for Windows"]
+    },
+    {
+        "ApplicationName": "WinRAR",
+        "WingetID": "RARLab.WinRAR",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Java",
+        "WingetID": "Oracle.JavaRuntimeEnvironment",
+        "Aliases": ["Java Runtime Environment", "JRE"]
+    },
+    {
+        "ApplicationName": "Python",
+        "WingetID": "Python.Python.3.12",
+        "Aliases": ["Python 3"]
+    },
+    {
+        "ApplicationName": "Node.js",
+        "WingetID": "OpenJS.NodeJS",
+        "Aliases": ["Node", "NodeJS"]
+    },
+    {
+        "ApplicationName": "Zoom",
+        "WingetID": "Zoom.Zoom",
+        "Aliases": ["Zoom Client", "Zoom Meetings"]
+    },
+    {
+        "ApplicationName": "Microsoft Teams",
+        "WingetID": "Microsoft.Teams",
+        "Aliases": ["Teams"]
+    },
+    {
+        "ApplicationName": "Slack",
+        "WingetID": "SlackTechnologies.Slack",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Discord",
+        "WingetID": "Discord.Discord",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Spotify",
+        "WingetID": "Spotify.Spotify",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Steam",
+        "WingetID": "Valve.Steam",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "OBS Studio",
+        "WingetID": "OBSProject.OBSStudio",
+        "Aliases": ["OBS"]
+    },
+    {
+        "ApplicationName": "GIMP",
+        "WingetID": "GIMP.GIMP",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Audacity",
+        "WingetID": "Audacity.Audacity",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "FileZilla",
+        "WingetID": "TimKosse.FileZilla.Client",
+        "Aliases": ["FileZilla Client"]
+    },
+    {
+        "ApplicationName": "PuTTY",
+        "WingetID": "PuTTY.PuTTY",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "WinSCP",
+        "WingetID": "WinSCP.WinSCP",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "VirtualBox",
+        "WingetID": "Oracle.VirtualBox",
+        "Aliases": ["Oracle VirtualBox"]
+    },
+    {
+        "ApplicationName": "VMware Workstation",
+        "WingetID": "VMware.WorkstationPlayer",
+        "Aliases": ["VMware Player", "VMware Workstation Player"]
+    },
+    {
+        "ApplicationName": "Docker Desktop",
+        "WingetID": "Docker.DockerDesktop",
+        "Aliases": ["Docker"]
+    },
+    {
+        "ApplicationName": "Postman",
+        "WingetID": "Postman.Postman",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Wireshark",
+        "WingetID": "WiresharkFoundation.Wireshark",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "TeamViewer",
+        "WingetID": "TeamViewer.TeamViewer",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "AnyDesk",
+        "WingetID": "AnyDeskSoftwareGmbH.AnyDesk",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "HandBrake",
+        "WingetID": "HandBrake.HandBrake",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Blender",
+        "WingetID": "BlenderFoundation.Blender",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Inkscape",
+        "WingetID": "Inkscape.Inkscape",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "LibreOffice",
+        "WingetID": "TheDocumentFoundation.LibreOffice",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Thunderbird",
+        "WingetID": "Mozilla.Thunderbird",
+        "Aliases": ["Mozilla Thunderbird"]
+    },
+    {
+        "ApplicationName": "Brave Browser",
+        "WingetID": "Brave.Brave",
+        "Aliases": ["Brave"]
+    },
+    {
+        "ApplicationName": "Opera",
+        "WingetID": "Opera.Opera",
+        "Aliases": ["Opera Browser"]
+    },
+    {
+        "ApplicationName": "Tor Browser",
+        "WingetID": "TorProject.TorBrowser",
+        "Aliases": ["Tor"]
+    },
+    {
+        "ApplicationName": "iTunes",
+        "WingetID": "Apple.iTunes",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "QuickTime",
+        "WingetID": "Apple.QuickTime",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Dropbox",
+        "WingetID": "Dropbox.Dropbox",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Google Drive",
+        "WingetID": "Google.GoogleDrive",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "OneDrive",
+        "WingetID": "Microsoft.OneDrive",
+        "Aliases": ["Microsoft OneDrive"]
+    },
+    {
+        "ApplicationName": "CCleaner",
+        "WingetID": "Piriform.CCleaner",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Malwarebytes",
+        "WingetID": "Malwarebytes.Malwarebytes",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Avast",
+        "WingetID": "AVAST.AVAST",
+        "Aliases": ["Avast Antivirus", "Avast Free Antivirus"]
+    },
+    {
+        "ApplicationName": "AVG",
+        "WingetID": "AVG.AntiVirusFree",
+        "Aliases": ["AVG Antivirus", "AVG Free"]
+    },
+    {
+        "ApplicationName": "KeePass",
+        "WingetID": "DominikReichl.KeePass",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "1Password",
+        "WingetID": "AgileBits.1Password",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "LastPass",
+        "WingetID": "LogMeIn.LastPass",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Bitwarden",
+        "WingetID": "Bitwarden.Bitwarden",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Sublime Text",
+        "WingetID": "SublimeHQ.SublimeText.4",
+        "Aliases": ["Sublime Text 3", "Sublime Text 4", "SublimeText"]
+    },
+    {
+        "ApplicationName": "Brackets",
+        "WingetID": "Adobe.Brackets",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Atom",
+        "WingetID": "GitHub.Atom",
+        "Aliases": ["Atom Editor"]
+    },
+    {
+        "ApplicationName": "Notepad2",
+        "WingetID": "zufuliu.notepad2",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Visual Studio",
+        "WingetID": "Microsoft.VisualStudio.2022.Community",
+        "Aliases": ["Visual Studio 2022", "Visual Studio 2019"]
+    },
+    {
+        "ApplicationName": "IntelliJ IDEA",
+        "WingetID": "JetBrains.IntelliJIDEA.Community",
+        "Aliases": ["IntelliJ"]
+    },
+    {
+        "ApplicationName": "PyCharm",
+        "WingetID": "JetBrains.PyCharm.Community",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Eclipse",
+        "WingetID": "EclipseAdoptium.Temurin.21.JDK",
+        "Aliases": ["Eclipse IDE"]
+    },
+    {
+        "ApplicationName": "NetBeans",
+        "WingetID": "Apache.NetBeans",
+        "Aliases": ["NetBeans IDE"]
+    },
+    {
+        "ApplicationName": "Android Studio",
+        "WingetID": "Google.AndroidStudio",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Xcode",
+        "WingetID": "",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Postman",
+        "WingetID": "Postman.Postman",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "GitHub Desktop",
+        "WingetID": "GitHub.GitHubDesktop",
+        "Aliases": ["Github Desktop"]
+    },
+    {
+        "ApplicationName": "GitKraken",
+        "WingetID": "Axosoft.GitKraken",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "SourceTree",
+        "WingetID": "Atlassian.Sourcetree",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Git",
+        "WingetID": "Git.Git",
+        "Aliases": ["Git for Windows"]
+    },
+    {
+        "ApplicationName": "TortoiseGit",
+        "WingetID": "TortoiseGit.TortoiseGit",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "WinMerge",
+        "WingetID": "WinMerge.WinMerge",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "KDiff3",
+        "WingetID": "KDE.KDiff3",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Beyond Compare",
+        "WingetID": "ScooterSoftware.BeyondCompare4",
+        "Aliases": ["Beyond Compare 4"]
+    },
+    {
+        "ApplicationName": "Meld",
+        "WingetID": "Meld.Meld",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Power BI Desktop",
+        "WingetID": "Microsoft.PowerBI",
+        "Aliases": ["PowerBI", "Power BI", "PowerBI Desktop"]
+    },
+    {
+        "ApplicationName": "Tableau Desktop",
+        "WingetID": "Tableau.Desktop",
+        "Aliases": ["Tableau"]
+    },
+    {
+        "ApplicationName": "SQL Server Management Studio",
+        "WingetID": "Microsoft.SQLServerManagementStudio",
+        "Aliases": ["SSMS"]
+    },
+    {
+        "ApplicationName": "Azure Data Studio",
+        "WingetID": "Microsoft.AzureDataStudio",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "DBeaver",
+        "WingetID": "dbeaver.dbeaver",
+        "Aliases": ["DBeaver Community"]
+    },
+    {
+        "ApplicationName": "HeidiSQL",
+        "WingetID": "HeidiSQL.HeidiSQL",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "DataGrip",
+        "WingetID": "JetBrains.DataGrip",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "pgAdmin",
+        "WingetID": "PostgreSQL.pgAdmin",
+        "Aliases": ["pgAdmin 4"]
+    },
+    {
+        "ApplicationName": "MySQL Workbench",
+        "WingetID": "Oracle.MySQLWorkbench",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Oracle SQL Developer",
+        "WingetID": "Oracle.SQLDeveloper",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Anaconda",
+        "WingetID": "Anaconda.Anaconda3",
+        "Aliases": ["Anaconda Navigator", "Anaconda3"]
+    },
+    {
+        "ApplicationName": "Jupyter Notebook",
+        "WingetID": "Anaconda.Anaconda3",
+        "Aliases": ["Jupyter"]
+    },
+    {
+        "ApplicationName": "RStudio",
+        "WingetID": "Posit.RStudio",
+        "Aliases": ["RStudio Desktop"]
+    },
+    {
+        "ApplicationName": "MATLAB",
+        "WingetID": "MathWorks.MATLAB",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Foxit PDF Reader",
+        "WingetID": "Foxit.FoxitReader",
+        "Aliases": ["Foxit Reader", "Foxit"]
+    },
+    {
+        "ApplicationName": "PDF-XChange Editor",
+        "WingetID": "TrackerSoftware.PDF-XChangeEditor",
+        "Aliases": ["PDF XChange", "PDFXChange"]
+    },
+    {
+        "ApplicationName": "Adobe Acrobat Reader",
+        "WingetID": "Adobe.Acrobat.Reader.64-bit",
+        "Aliases": ["Acrobat Reader", "Adobe Reader"]
+    },
+    {
+        "ApplicationName": "Sumatra PDF",
+        "WingetID": "SumatraPDF.SumatraPDF",
+        "Aliases": ["SumatraPDF"]
+    },
+    {
+        "ApplicationName": "PDF24",
+        "WingetID": "geeksoftwareGmbH.PDF24Creator",
+        "Aliases": ["PDF24 Creator"]
+    },
+    {
+        "ApplicationName": "Microsoft Outlook",
+        "WingetID": "Microsoft.Office",
+        "Aliases": ["Outlook"]
+    },
+    {
+        "ApplicationName": "Thunderbird",
+        "WingetID": "Mozilla.Thunderbird",
+        "Aliases": ["Mozilla Thunderbird"]
+    },
+    {
+        "ApplicationName": "Mailbird",
+        "WingetID": "Mailbird.Mailbird",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "eM Client",
+        "WingetID": "eMClient.eMClient",
+        "Aliases": ["emClient"]
+    },
+    {
+        "ApplicationName": "Zoho Mail",
+        "WingetID": "Zoho.Mail",
+        "Aliases": ["Zoho Mail Desktop"]
+    },
+    {
+        "ApplicationName": "Gmail Desktop",
+        "WingetID": "Xlent.Gmail",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Yahoo Mail",
+        "WingetID": "Yahoo.Yahoo",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "The Bat",
+        "WingetID": "RitLabs.TheBat",
+        "Aliases": ["The Bat Professional"]
+    },
+    {
+        "ApplicationName": "Postbox",
+        "WingetID": "Postbox.Postbox",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Evolution",
+        "WingetID": "GNOME.Evolution",
+        "Aliases": ["Evolution Mail"]
+    },
+    {
+        "ApplicationName": "Pegasus Mail",
+        "WingetID": "PegasusMail.PegasusMail",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Netscape Navigator",
+        "WingetID": "Netscape.Navigator",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Mozilla SeaMonkey",
+        "WingetID": "Mozilla.SeaMonkey",
+        "Aliases": ["SeaMonkey"]
+    },
+    {
+        "ApplicationName": "Camtasia",
+        "WingetID": "TechSmith.Camtasia",
+        "Aliases": ["Camtasia Studio"]
+    },
+    {
+        "ApplicationName": "OBS Studio",
+        "WingetID": "OBSProject.OBSStudio",
+        "Aliases": ["OBS", "Open Broadcaster Software"]
+    },
+    {
+        "ApplicationName": "Adobe Premiere Pro",
+        "WingetID": "Adobe.PremierePro",
+        "Aliases": ["Premiere Pro", "Premiere"]
+    },
+    {
+        "ApplicationName": "Final Cut Pro",
+        "WingetID": "",
+        "Aliases": ["Final Cut"]
+    },
+    {
+        "ApplicationName": "DaVinci Resolve",
+        "WingetID": "Blackmagic.DaVinciResolve",
+        "Aliases": ["Resolve"]
+    },
+    {
+        "ApplicationName": "Vegas Pro",
+        "WingetID": "Magix.VegasPro",
+        "Aliases": ["Sony Vegas", "Vegas"]
+    },
+    {
+        "ApplicationName": "Logic Pro",
+        "WingetID": "",
+        "Aliases": ["Logic Pro X"]
+    },
+    {
+        "ApplicationName": "Pro Tools",
+        "WingetID": "Avid.ProTools",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Studio One",
+        "WingetID": "PreSonus.StudioOne",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "GarageBand",
+        "WingetID": "",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Bitwig Studio",
+        "WingetID": "Bitwig.BitwigStudio",
+        "Aliases": []
+    },
+    {
+        "ApplicationName": "Reason Studios",
+        "WingetID": "ReasonStudios.Reason",
+        "Aliases": ["Reason"]
+    },
+    {
+        "ApplicationName": "Serato DJ",
+        "WingetID": "Serato.SeratoDJPro",
+        "Aliases": ["Serato DJ Pro"]
+    },
+    {
+        "ApplicationName": "Virtual DJ",
+        "WingetID": "Atomix.VirtualDJ",
+        "Aliases": ["VirtualDJ"]
+    },
+    {
+        "ApplicationName": "Traktor",
+        "WingetID": "NativeInstruments.TraktorPro",
+        "Aliases": ["Traktor Pro"]
+    },
+    {
+        "ApplicationName": "Streamlabs Desktop",
+        "WingetID": "Streamlabs.StreamlabsOBS",
+        "Aliases": ["Streamlabs OBS", "SLOBS"]
+    }
+]

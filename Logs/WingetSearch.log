@@ -1,0 +1,385 @@
+﻿2025-11-28 03:59:03 - Starting intelligent search for: Microsoft Office 365
+2025-11-28 03:59:03 - Trying strategy: Exact Match with query: Microsoft Office 365 (exact=True)
+2025-11-28 03:59:04 - Trying strategy: Cleaned Name with query: Microsoft Office 365 (exact=True)
+2025-11-28 03:59:05 - Trying strategy: Split CamelCase with query: Microsoft Office 365 (exact=True)
+2025-11-28 03:59:06 - Trying strategy: Without Version with query: Microsoft Office 365 (exact=True)
+2025-11-28 03:59:07 - Trying strategy: Hyphen to Space with query: Microsoft Office 365 (exact=True)
+2025-11-28 03:59:07 - Trying strategy: No Spaces with query: MicrosoftOffice365 (exact=True)
+2025-11-28 03:59:08 - Trying strategy: First Two Words with query: Microsoft Office (exact=False)
+2025-11-28 03:59:10 - Attempting multi-word validation with 3 words
+2025-11-28 03:59:19 - No package found for: Microsoft Office 365
+2025-11-28 03:59:19 - Starting intelligent search for: Google Chrome 119.0.6045.160
+2025-11-28 03:59:19 - Found in known apps database (direct): Google.Chrome
+2025-11-28 03:59:21 - Starting intelligent search for: Mozilla Firefox
+2025-11-28 03:59:21 - Found in known apps database (direct): Mozilla.Firefox
+2025-11-28 03:59:24 - Starting intelligent search for: 7-Zip 23.01
+2025-11-28 03:59:24 - Found in known apps database (direct): 7zip.7zip
+2025-11-28 03:59:27 - Starting intelligent search for: VLC Media Player 3.0.18
+2025-11-28 03:59:27 - Found in known apps database (direct): VideoLAN.VLC
+2025-11-28 03:59:29 - Starting intelligent search for: Notepad++
+2025-11-28 03:59:29 - Found in known apps database (direct): Notepad++.Notepad++
+2025-11-28 03:59:30 - Starting intelligent search for: WinRAR 6.24
+2025-11-28 03:59:30 - Found in known apps database (direct): RARLab.WinRAR
+2025-11-28 03:59:32 - Starting intelligent search for: Java Runtime Environment 8 Update 391
+2025-11-28 03:59:32 - Trying strategy: Exact Match with query: Java Runtime Environment 8 Update 391 (exact=True)
+2025-11-28 03:59:33 - Trying strategy: Cleaned Name with query: Java Runtime Environment 8 Update 391 (exact=True)
+2025-11-28 03:59:34 - Trying strategy: Split CamelCase with query: Java Runtime Environment 8 Update 391 (exact=True)
+2025-11-28 03:59:35 - Trying strategy: Without Version with query: Java Runtime Environment 8 Update 391 (exact=True)
+2025-11-28 03:59:36 - Trying strategy: Hyphen to Space with query: Java Runtime Environment 8 Update 391 (exact=True)
+2025-11-28 03:59:37 - Trying strategy: No Spaces with query: JavaRuntimeEnvironment8Update391 (exact=True)
+2025-11-28 03:59:38 - Trying strategy: First Two Words with query: Java Runtime (exact=False)
+2025-11-28 03:59:40 - Attempting multi-word validation with 5 words
+2025-11-28 03:59:55 - No package found for: Java Runtime Environment 8 Update 391
+2025-11-28 03:59:56 - Starting intelligent search for: Python 3.11.6
+2025-11-28 03:59:56 - Found in known apps database (direct): Python.Python.3.12
+2025-11-28 03:59:57 - Starting intelligent search for: Visual Studio Code 1.84.2
+2025-11-28 03:59:57 - Found in known apps database (direct): Microsoft.VisualStudioCode
+2025-11-28 03:59:59 - Starting intelligent search for: Slack 4.35.126
+2025-11-28 03:59:59 - Found in known apps database (direct): SlackTechnologies.Slack
+2025-11-28 04:00:01 - Starting intelligent search for: Zoom Client 5.16.5
+2025-11-28 04:00:01 - Found in known apps database (direct): Zoom.Zoom
+2025-11-28 04:00:03 - Starting intelligent search for: Microsoft Teams
+2025-11-28 04:00:03 - Found in known apps database (direct): Microsoft.Teams
+2025-11-28 04:00:04 - Starting intelligent search for: Spotify 1.2.25.1011
+2025-11-28 04:00:04 - Found in known apps database (direct): Spotify.Spotify
+2025-11-28 04:00:06 - Starting intelligent search for: Discord 1.0.9021
+2025-11-28 04:00:06 - Found in known apps database (direct): Discord.Discord
+2025-11-28 04:00:07 - Starting intelligent search for: Adobe Photoshop 2024
+2025-11-28 04:00:07 - Trying strategy: Exact Match with query: Adobe Photoshop 2024 (exact=True)
+2025-11-28 04:00:08 - Trying strategy: Cleaned Name with query: Adobe Photoshop 2024 (exact=True)
+2025-11-28 04:00:09 - Trying strategy: Split CamelCase with query: Adobe Photoshop 2024 (exact=True)
+2025-11-28 04:00:10 - Trying strategy: Without Version with query: Adobe Photoshop 2024 (exact=True)
+2025-11-28 04:00:11 - Trying strategy: Hyphen to Space with query: Adobe Photoshop 2024 (exact=True)
+2025-11-28 04:00:13 - Trying strategy: No Spaces with query: AdobePhotoshop2024 (exact=True)
+2025-11-28 04:00:14 - Trying strategy: First Two Words with query: Adobe Photoshop (exact=False)
+2025-11-28 04:00:15 - Attempting multi-word validation with 3 words
+2025-11-28 04:00:16 - Skipping invalid ID (looks like version): 25.001.20937
+2025-11-28 04:00:16 - Skipping invalid ID (looks like version): 25.001.20937
+2025-11-28 04:00:19 - Skipping invalid ID (looks like version): 3d-io.Exr-IO
+2025-11-28 04:00:23 - No package found for: Adobe Photoshop 2024
+2025-11-28 04:00:24 - Starting intelligent search for: AutoCAD 2024
+2025-11-28 04:00:24 - Trying strategy: Exact Match with query: AutoCAD 2024 (exact=True)
+2025-11-28 04:00:25 - Trying strategy: Cleaned Name with query: AutoCAD 2024 (exact=True)
+2025-11-28 04:00:26 - Trying strategy: Split CamelCase with query: Auto CAD 2024 (exact=True)
+2025-11-28 04:00:28 - Trying strategy: Without Version with query: AutoCAD 2024 (exact=True)
+2025-11-28 04:00:29 - Trying strategy: Hyphen to Space with query: AutoCAD 2024 (exact=True)
+2025-11-28 04:00:30 - Trying strategy: No Spaces with query: AutoCAD2024 (exact=True)
+2025-11-28 04:00:30 - Trying strategy: First Two Words with query: AutoCAD 2024 (exact=False)
+2025-11-28 04:00:32 - Attempting multi-word validation with 2 words
+2025-11-28 04:00:37 - No package found for: AutoCAD 2024
+2025-11-28 04:00:38 - Starting intelligent search for: Skype 8.107.0.215
+2025-11-28 04:00:38 - Trying strategy: Exact Match with query: Skype 8.107.0.215 (exact=True)
+2025-11-28 04:00:39 - Trying strategy: Cleaned Name with query: Skype (exact=True)
+2025-11-28 04:00:40 - Trying strategy: Split CamelCase with query: Skype 8.107.0.215 (exact=True)
+2025-11-28 04:00:42 - Trying strategy: Without Version with query: Skype (exact=True)
+2025-11-28 04:00:43 - Trying strategy: Hyphen to Space with query: Skype 8.107.0.215 (exact=True)
+2025-11-28 04:00:44 - Trying strategy: No Spaces with query: Skype8.107.0.215 (exact=True)
+2025-11-28 04:00:45 - No package found for: Skype 8.107.0.215
+2025-11-28 04:00:46 - Starting intelligent search for: Dropbox
+2025-11-28 04:00:46 - Found in known apps database (direct): Dropbox.Dropbox
+2025-11-28 04:00:48 - Starting intelligent search for: OneDrive
+2025-11-28 04:00:48 - Found in known apps database (direct): Microsoft.OneDrive
+2025-11-28 04:00:50 - Starting intelligent search for: Git 2.42.0
+2025-11-28 04:00:50 - Found in known apps database (direct): Git.Git
+2025-11-28 04:00:51 - Starting intelligent search for: Node.js 20.9.0
+2025-11-28 04:00:51 - Found in known apps database (direct): OpenJS.NodeJS
+2025-11-28 04:00:53 - Starting intelligent search for: Docker Desktop 4.25.1
+2025-11-28 04:00:53 - Found in known apps database (direct): Docker.DockerDesktop
+2025-11-28 04:00:54 - Starting intelligent search for: VirtualBox 7.0.12
+2025-11-28 04:00:54 - Found in known apps database (direct): Oracle.VirtualBox
+2025-11-28 04:00:56 - Starting intelligent search for: VMware Workstation Pro 17.5
+2025-11-28 04:00:56 - Trying strategy: Exact Match with query: VMware Workstation Pro 17.5 (exact=True)
+2025-11-28 04:00:58 - Trying strategy: Cleaned Name with query: VMware Workstation Pro (exact=True)
+2025-11-28 04:00:59 - Trying strategy: Split CamelCase with query: VMware Workstation Pro 17.5 (exact=True)
+2025-11-28 04:01:00 - Trying strategy: Without Version with query: VMware Workstation Pro (exact=True)
+2025-11-28 04:01:00 - Trying strategy: Hyphen to Space with query: VMware Workstation Pro 17.5 (exact=True)
+2025-11-28 04:01:01 - Trying strategy: No Spaces with query: VMwareWorkstationPro17.5 (exact=True)
+2025-11-28 04:01:02 - Trying strategy: First Two Words with query: VMware Workstation (exact=False)
+2025-11-28 04:01:04 - Attempting multi-word validation with 3 words
+2025-11-28 04:01:10 - Skipping invalid ID (looks like version): 2BrightSparks.SyncBackPro
+2025-11-28 04:01:10 - Skipping invalid ID (looks like version): 34u.MultiBaseCSProfessional
+2025-11-28 04:01:10 - Skipping invalid ID (looks like version): 360.360DocProtect
+2025-11-28 04:01:13 - No package found for: VMware Workstation Pro 17.5
+2025-11-28 04:01:13 - Starting intelligent search for: TeamViewer 15.47.3
+2025-11-28 04:01:13 - Found in known apps database (direct): TeamViewer.TeamViewer
+2025-11-28 04:01:15 - Starting intelligent search for: AnyDesk 7.1.14
+2025-11-28 04:01:15 - Found in known apps database (direct): AnyDeskSoftwareGmbH.AnyDesk
+2025-11-28 04:01:17 - Starting intelligent search for: FileZilla 3.66.1
+2025-11-28 04:01:17 - Found in known apps database (direct): TimKosse.FileZilla.Client
+2025-11-28 04:01:20 - Starting intelligent search for: PuTTY 0.79
+2025-11-28 04:01:20 - Found in known apps database (direct): PuTTY.PuTTY
+2025-11-28 04:01:21 - Starting intelligent search for: WinSCP 6.1.2
+2025-11-28 04:01:21 - Found in known apps database (direct): WinSCP.WinSCP
+2025-11-28 04:01:23 - Starting intelligent search for: Wireshark 4.2.0
+2025-11-28 04:01:23 - Found in known apps database (direct): WiresharkFoundation.Wireshark
+2025-11-28 04:01:25 - Starting intelligent search for: Postman 10.19.9
+2025-11-28 04:01:25 - Found in known apps database (direct): Postman.Postman
+2025-11-28 04:01:27 - Starting intelligent search for: Visual Studio 2022
+2025-11-28 04:01:28 - Found in known apps database (direct): Microsoft.VisualStudio.2022.Community
+2025-11-28 04:01:29 - Starting intelligent search for: IntelliJ IDEA 2023.2.5
+2025-11-28 04:01:29 - Found in known apps database (direct): JetBrains.IntelliJIDEA.Community
+2025-11-28 04:01:31 - Starting intelligent search for: Eclipse IDE
+2025-11-28 04:01:31 - Found in known apps database (direct): EclipseAdoptium.Temurin.21.JDK
+2025-11-28 04:01:34 - Starting intelligent search for: NetBeans 19
+2025-11-28 04:01:34 - Trying strategy: Exact Match with query: NetBeans 19 (exact=True)
+2025-11-28 04:01:35 - Trying strategy: Cleaned Name with query: NetBeans 19 (exact=True)
+2025-11-28 04:01:37 - Trying strategy: Split CamelCase with query: Net Beans 19 (exact=True)
+2025-11-28 04:01:38 - Trying strategy: Without Version with query: NetBeans 19 (exact=True)
+2025-11-28 04:01:39 - Trying strategy: Hyphen to Space with query: NetBeans 19 (exact=True)
+2025-11-28 04:01:40 - Trying strategy: No Spaces with query: NetBeans19 (exact=True)
+2025-11-28 04:01:42 - Trying strategy: First Two Words with query: NetBeans 19 (exact=False)
+2025-11-28 04:01:43 - No package found for: NetBeans 19
+2025-11-28 04:01:44 - Starting intelligent search for: PyCharm 2023.2.5
+2025-11-28 04:01:44 - Found in known apps database (direct): JetBrains.PyCharm.Community
+2025-11-28 04:01:46 - Starting intelligent search for: Android Studio Hedgehog
+2025-11-28 04:01:46 - Trying strategy: Exact Match with query: Android Studio Hedgehog (exact=True)
+2025-11-28 04:01:48 - Trying strategy: Cleaned Name with query: Android Studio Hedgehog (exact=True)
+2025-11-28 04:01:48 - Trying strategy: Split CamelCase with query: Android Studio Hedgehog (exact=True)
+2025-11-28 04:01:49 - Trying strategy: Without Version with query: Android Studio Hedgehog (exact=True)
+2025-11-28 04:01:51 - Trying strategy: Hyphen to Space with query: Android Studio Hedgehog (exact=True)
+2025-11-28 04:01:51 - Trying strategy: No Spaces with query: AndroidStudioHedgehog (exact=True)
+2025-11-28 04:01:52 - Trying strategy: First Two Words with query: Android Studio (exact=False)
+2025-11-28 04:01:54 - Found via First Two Words: Google.AndroidStudio
+2025-11-28 04:01:55 - Starting intelligent search for: Xcode 15.0
+2025-11-28 04:01:55 - Found in known apps database (direct): 
+2025-11-28 04:01:57 - Starting intelligent search for: Sublime Text 4
+2025-11-28 04:01:57 - Found in known apps database (direct): SublimeHQ.SublimeText.4
+2025-11-28 04:01:59 - Starting intelligent search for: Atom Editor
+2025-11-28 04:01:59 - Found in known apps database (direct): GitHub.Atom
+2025-11-28 04:02:00 - Starting intelligent search for: Brackets
+2025-11-28 04:02:00 - Found in known apps database (direct): Adobe.Brackets
+2025-11-28 04:02:02 - Starting intelligent search for: Notepad2
+2025-11-28 04:02:02 - Found in known apps database (direct): zufuliu.notepad2
+2025-11-28 04:02:03 - Starting intelligent search for: EditPlus 5.7
+2025-11-28 04:02:03 - Trying strategy: Exact Match with query: EditPlus 5.7 (exact=True)
+2025-11-28 04:02:05 - Trying strategy: Cleaned Name with query: EditPlus (exact=True)
+2025-11-28 04:02:06 - Trying strategy: Split CamelCase with query: Edit Plus 5.7 (exact=True)
+2025-11-28 04:02:07 - Trying strategy: Without Version with query: EditPlus (exact=True)
+2025-11-28 04:02:08 - Trying strategy: Hyphen to Space with query: EditPlus 5.7 (exact=True)
+2025-11-28 04:02:09 - Trying strategy: No Spaces with query: EditPlus5.7 (exact=True)
+2025-11-28 04:02:10 - No package found for: EditPlus 5.7
+2025-11-28 04:02:11 - Starting intelligent search for: UltraEdit 2023.0
+2025-11-28 04:02:11 - Trying strategy: Exact Match with query: UltraEdit 2023.0 (exact=True)
+2025-11-28 04:02:12 - Trying strategy: Cleaned Name with query: UltraEdit (exact=True)
+2025-11-28 04:02:12 - Trying strategy: Split CamelCase with query: Ultra Edit 2023.0 (exact=True)
+2025-11-28 04:02:13 - Trying strategy: Without Version with query: UltraEdit (exact=True)
+2025-11-28 04:02:14 - Trying strategy: Hyphen to Space with query: UltraEdit 2023.0 (exact=True)
+2025-11-28 04:02:15 - Trying strategy: No Spaces with query: UltraEdit2023.0 (exact=True)
+2025-11-28 04:02:16 - No package found for: UltraEdit 2023.0
+2025-11-28 04:02:17 - Starting intelligent search for: EmEditor Professional
+2025-11-28 04:02:17 - Trying strategy: Exact Match with query: EmEditor Professional (exact=True)
+2025-11-28 04:02:18 - Trying strategy: Cleaned Name with query: EmEditor Professional (exact=True)
+2025-11-28 04:02:18 - Trying strategy: Split CamelCase with query: Em Editor Professional (exact=True)
+2025-11-28 04:02:19 - Trying strategy: Without Version with query: EmEditor Professional (exact=True)
+2025-11-28 04:02:21 - Trying strategy: Hyphen to Space with query: EmEditor Professional (exact=True)
+2025-11-28 04:02:21 - Trying strategy: No Spaces with query: EmEditorProfessional (exact=True)
+2025-11-28 04:02:22 - Trying strategy: First Two Words with query: EmEditor Professional (exact=False)
+2025-11-28 04:02:24 - Attempting multi-word validation with 2 words
+2025-11-28 04:02:30 - No package found for: EmEditor Professional
+2025-11-28 04:02:31 - Starting intelligent search for: Beyond Compare 4.4.7
+2025-11-28 04:02:31 - Found in known apps database (direct): ScooterSoftware.BeyondCompare4
+2025-11-28 04:02:32 - Starting intelligent search for: WinMerge 2.16.34
+2025-11-28 04:02:32 - Found in known apps database (direct): WinMerge.WinMerge
+2025-11-28 04:02:33 - Starting intelligent search for: KDiff3 0.10.5
+2025-11-28 04:02:33 - Found in known apps database (direct): KDE.KDiff3
+2025-11-28 04:02:34 - Starting intelligent search for: Meld 3.22.0
+2025-11-28 04:02:34 - Found in known apps database (direct): Meld.Meld
+2025-11-28 04:02:36 - Starting intelligent search for: DiffMerge
+2025-11-28 04:02:36 - Trying strategy: Exact Match with query: DiffMerge (exact=True)
+2025-11-28 04:02:37 - Trying strategy: Cleaned Name with query: DiffMerge (exact=True)
+2025-11-28 04:02:38 - Trying strategy: Split CamelCase with query: Diff Merge (exact=True)
+2025-11-28 04:02:40 - Trying strategy: Without Version with query: DiffMerge (exact=True)
+2025-11-28 04:02:40 - Trying strategy: Hyphen to Space with query: DiffMerge (exact=True)
+2025-11-28 04:02:42 - Trying strategy: No Spaces with query: DiffMerge (exact=True)
+2025-11-28 04:02:43 - No package found for: DiffMerge
+2025-11-28 04:02:43 - Starting intelligent search for: SourceTree 3.4.15
+2025-11-28 04:02:43 - Found in known apps database (direct): Atlassian.Sourcetree
+2025-11-28 04:02:44 - Starting intelligent search for: GitKraken 9.10.0
+2025-11-28 04:02:44 - Found in known apps database (direct): Axosoft.GitKraken
+2025-11-28 04:02:47 - Starting intelligent search for: GitHub Desktop 3.3.6
+2025-11-28 04:02:47 - Found in known apps database (direct): GitHub.GitHubDesktop
+2025-11-28 04:02:48 - Starting intelligent search for: Tortoise SVN 1.14.6
+2025-11-28 04:02:48 - Trying strategy: Exact Match with query: Tortoise SVN 1.14.6 (exact=True)
+2025-11-28 04:02:49 - Trying strategy: Cleaned Name with query: Tortoise SVN (exact=True)
+2025-11-28 04:02:50 - Trying strategy: Split CamelCase with query: Tortoise SVN 1.14.6 (exact=True)
+2025-11-28 04:02:51 - Trying strategy: Without Version with query: Tortoise SVN (exact=True)
+2025-11-28 04:02:53 - Trying strategy: Hyphen to Space with query: Tortoise SVN 1.14.6 (exact=True)
+2025-11-28 04:02:54 - Trying strategy: No Spaces with query: TortoiseSVN1.14.6 (exact=True)
+2025-11-28 04:02:55 - Trying strategy: First Two Words with query: Tortoise SVN (exact=False)
+2025-11-28 04:02:55 - Attempting multi-word validation with 2 words
+2025-11-28 04:03:01 - No package found for: Tortoise SVN 1.14.6
+2025-11-28 04:03:02 - Starting intelligent search for: SmartGit 23.1.1
+2025-11-28 04:03:02 - Trying strategy: Exact Match with query: SmartGit 23.1.1 (exact=True)
+2025-11-28 04:03:02 - Trying strategy: Cleaned Name with query: SmartGit (exact=True)
+2025-11-28 04:03:04 - Trying strategy: Split CamelCase with query: Smart Git 23.1.1 (exact=True)
+2025-11-28 04:03:06 - Trying strategy: Without Version with query: SmartGit (exact=True)
+2025-11-28 04:03:07 - Trying strategy: Hyphen to Space with query: SmartGit 23.1.1 (exact=True)
+2025-11-28 04:03:09 - Trying strategy: No Spaces with query: SmartGit23.1.1 (exact=True)
+2025-11-28 04:03:09 - No package found for: SmartGit 23.1.1
+2025-11-28 04:03:10 - Starting intelligent search for: Perforce Helix Core
+2025-11-28 04:03:10 - Trying strategy: Exact Match with query: Perforce Helix Core (exact=True)
+2025-11-28 04:03:13 - Trying strategy: Cleaned Name with query: Perforce Helix Core (exact=True)
+2025-11-28 04:03:14 - Trying strategy: Split CamelCase with query: Perforce Helix Core (exact=True)
+2025-11-28 04:03:15 - Trying strategy: Without Version with query: Perforce Helix Core (exact=True)
+2025-11-28 04:03:16 - Trying strategy: Hyphen to Space with query: Perforce Helix Core (exact=True)
+2025-11-28 04:03:18 - Trying strategy: No Spaces with query: PerforceHelixCore (exact=True)
+2025-11-28 04:03:20 - Trying strategy: First Two Words with query: Perforce Helix (exact=False)
+2025-11-28 04:03:21 - Attempting multi-word validation with 3 words
+2025-11-28 04:03:30 - No package found for: Perforce Helix Core
+2025-11-28 04:03:30 - Starting intelligent search for: Microsoft SQL Server 2022
+2025-11-28 04:03:30 - Trying strategy: Exact Match with query: Microsoft SQL Server 2022 (exact=True)
+2025-11-28 04:03:31 - Trying strategy: Cleaned Name with query: Microsoft SQL Server 2022 (exact=True)
+2025-11-28 04:03:32 - Trying strategy: Split CamelCase with query: Microsoft SQL Server 2022 (exact=True)
+2025-11-28 04:03:37 - Trying strategy: Without Version with query: Microsoft SQL Server 2022 (exact=True)
+2025-11-28 04:03:38 - Trying strategy: Hyphen to Space with query: Microsoft SQL Server 2022 (exact=True)
+2025-11-28 04:03:40 - Trying strategy: No Spaces with query: MicrosoftSQLServer2022 (exact=True)
+2025-11-28 04:03:43 - Trying strategy: First Two Words with query: Microsoft SQL (exact=False)
+2025-11-28 04:03:45 - Found via First Two Words: Microsoft.SQLServer.2012.NativeClient
+2025-11-28 04:03:45 - Starting intelligent search for: MySQL 8.2.0
+2025-11-28 04:03:45 - Trying strategy: Exact Match with query: MySQL 8.2.0 (exact=True)
+2025-11-28 04:03:46 - Trying strategy: Cleaned Name with query: MySQL (exact=True)
+2025-11-28 04:03:51 - Found via Cleaned Name: Oracle.MySQL
+2025-11-28 04:03:52 - Starting intelligent search for: PostgreSQL 16.1
+2025-11-28 04:03:52 - Trying strategy: Exact Match with query: PostgreSQL 16.1 (exact=True)
+2025-11-28 04:03:54 - Trying strategy: Cleaned Name with query: PostgreSQL (exact=True)
+2025-11-28 04:04:02 - Found via Cleaned Name: DBeaver.DBeaver.Community
+2025-11-28 04:04:03 - Starting intelligent search for: MongoDB 7.0.3
+2025-11-28 04:04:03 - Trying strategy: Exact Match with query: MongoDB 7.0.3 (exact=True)
+2025-11-28 04:04:04 - Trying strategy: Cleaned Name with query: MongoDB (exact=True)
+2025-11-28 04:04:06 - Found via Cleaned Name: MongoDB.Server
+2025-11-28 04:04:06 - Starting intelligent search for: Oracle Database 21c
+2025-11-28 04:04:06 - Trying strategy: Exact Match with query: Oracle Database 21c (exact=True)
+2025-11-28 04:04:07 - Trying strategy: Cleaned Name with query: Oracle Database 21c (exact=True)
+2025-11-28 04:04:10 - Trying strategy: Split CamelCase with query: Oracle Database 21c (exact=True)
+2025-11-28 04:04:11 - Trying strategy: Without Version with query: Oracle Database 21c (exact=True)
+2025-11-28 04:04:12 - Trying strategy: Hyphen to Space with query: Oracle Database 21c (exact=True)
+2025-11-28 04:04:13 - Trying strategy: No Spaces with query: OracleDatabase21c (exact=True)
+2025-11-28 04:04:14 - Trying strategy: First Two Words with query: Oracle Database (exact=False)
+2025-11-28 04:04:16 - Attempting multi-word validation with 3 words
+2025-11-28 04:04:20 - Skipping invalid ID (looks like version): 3TSoftwareLabs.Robo3T
+2025-11-28 04:04:20 - Skipping invalid ID (looks like version): 3TSoftwareLabs.Studio3T
+2025-11-28 04:04:24 - No package found for: Oracle Database 21c
+2025-11-28 04:04:25 - Starting intelligent search for: MariaDB 11.2.2
+2025-11-28 04:04:25 - Trying strategy: Exact Match with query: MariaDB 11.2.2 (exact=True)
+2025-11-28 04:04:26 - Trying strategy: Cleaned Name with query: MariaDB (exact=True)
+2025-11-28 04:04:27 - Found via Cleaned Name: MariaDB.Server
+2025-11-28 04:04:28 - Starting intelligent search for: SQLite 3.44.0
+2025-11-28 04:04:28 - Trying strategy: Exact Match with query: SQLite 3.44.0 (exact=True)
+2025-11-28 04:04:29 - Trying strategy: Cleaned Name with query: SQLite (exact=True)
+2025-11-28 04:04:30 - Found via Cleaned Name: SQLite.SQLite
+2025-11-28 04:04:31 - Starting intelligent search for: Redis 7.2.3
+2025-11-28 04:04:31 - Trying strategy: Exact Match with query: Redis 7.2.3 (exact=True)
+2025-11-28 04:04:33 - Trying strategy: Cleaned Name with query: Redis (exact=True)
+2025-11-28 04:04:33 - Skipping invalid ID (looks like version): 17.3.6
+2025-11-28 04:04:35 - Found via Cleaned Name: Taozuhong.KangarooRedis
+2025-11-28 04:04:36 - Starting intelligent search for: Elasticsearch 8.11.1
+2025-11-28 04:04:36 - Trying strategy: Exact Match with query: Elasticsearch 8.11.1 (exact=True)
+2025-11-28 04:04:37 - Trying strategy: Cleaned Name with query: Elasticsearch (exact=True)
+2025-11-28 04:04:39 - Trying strategy: Split CamelCase with query: Elasticsearch 8.11.1 (exact=True)
+2025-11-28 04:04:40 - Trying strategy: Without Version with query: Elasticsearch (exact=True)
+2025-11-28 04:04:41 - Trying strategy: Hyphen to Space with query: Elasticsearch 8.11.1 (exact=True)
+2025-11-28 04:04:42 - Trying strategy: No Spaces with query: Elasticsearch8.11.1 (exact=True)
+2025-11-28 04:04:43 - No package found for: Elasticsearch 8.11.1
+2025-11-28 04:04:44 - Starting intelligent search for: Apache Cassandra
+2025-11-28 04:04:44 - Trying strategy: Exact Match with query: Apache Cassandra (exact=True)
+2025-11-28 04:04:44 - Trying strategy: Cleaned Name with query: Apache Cassandra (exact=True)
+2025-11-28 04:04:45 - Trying strategy: Split CamelCase with query: Apache Cassandra (exact=True)
+2025-11-28 04:04:47 - Trying strategy: Without Version with query: Apache Cassandra (exact=True)
+2025-11-28 04:04:48 - Trying strategy: Hyphen to Space with query: Apache Cassandra (exact=True)
+2025-11-28 04:04:49 - Trying strategy: No Spaces with query: ApacheCassandra (exact=True)
+2025-11-28 04:04:50 - Trying strategy: First Two Words with query: Apache Cassandra (exact=False)
+2025-11-28 04:04:51 - Attempting multi-word validation with 2 words
+2025-11-28 04:04:57 - No package found for: Apache Cassandra
+2025-11-28 04:04:57 - Starting intelligent search for: Neo4j Desktop 1.5.9
+2025-11-28 04:04:57 - Trying strategy: Exact Match with query: Neo4j Desktop 1.5.9 (exact=True)
+2025-11-28 04:04:59 - Trying strategy: Cleaned Name with query: Neo4j Desktop (exact=True)
+2025-11-28 04:05:00 - Trying strategy: Split CamelCase with query: Neo4j Desktop 1.5.9 (exact=True)
+2025-11-28 04:05:03 - Trying strategy: Without Version with query: Neo4j Desktop (exact=True)
+2025-11-28 04:05:04 - Trying strategy: Hyphen to Space with query: Neo4j Desktop 1.5.9 (exact=True)
+2025-11-28 04:05:06 - Trying strategy: No Spaces with query: Neo4jDesktop1.5.9 (exact=True)
+2025-11-28 04:05:07 - Trying strategy: First Two Words with query: Neo4j Desktop (exact=False)
+2025-11-28 04:05:08 - Attempting multi-word validation with 2 words
+2025-11-28 04:05:10 - Skipping invalid ID (looks like version): 360.360DesktopLite
+2025-11-28 04:05:12 - No package found for: Neo4j Desktop 1.5.9
+2025-11-28 04:05:13 - Starting intelligent search for: MySQL Workbench 8.0.35
+2025-11-28 04:05:13 - Found in known apps database (direct): Oracle.MySQLWorkbench
+2025-11-28 04:05:14 - Starting intelligent search for: pgAdmin 4 7.8
+2025-11-28 04:05:14 - Found in known apps database (direct): PostgreSQL.pgAdmin
+2025-11-28 04:05:16 - Starting intelligent search for: DBeaver 23.2.5
+2025-11-28 04:05:16 - Found in known apps database (direct): dbeaver.dbeaver
+2025-11-28 04:05:18 - Starting intelligent search for: HeidiSQL 12.6.0
+2025-11-28 04:05:18 - Found in known apps database (direct): HeidiSQL.HeidiSQL
+2025-11-28 04:05:20 - Starting intelligent search for: SQL Server Management Studio 19.2
+2025-11-28 04:05:20 - Found in known apps database (direct): Microsoft.SQLServerManagementStudio
+2025-11-28 04:05:22 - Starting intelligent search for: Oracle SQL Developer
+2025-11-28 04:05:22 - Found in known apps database (direct): Oracle.SQLDeveloper
+2025-11-28 04:05:24 - Starting intelligent search for: DataGrip 2023.2.3
+2025-11-28 04:05:24 - Found in known apps database (direct): JetBrains.DataGrip
+2025-11-28 04:05:28 - Starting intelligent search for: Toad for Oracle
+2025-11-28 04:05:28 - Trying strategy: Exact Match with query: Toad for Oracle (exact=True)
+2025-11-28 04:05:28 - Trying strategy: Cleaned Name with query: Toad for Oracle (exact=True)
+2025-11-28 04:05:30 - Trying strategy: Split CamelCase with query: Toad for Oracle (exact=True)
+2025-11-28 04:05:30 - Trying strategy: Without Version with query: Toad for Oracle (exact=True)
+2025-11-28 04:05:33 - Trying strategy: Hyphen to Space with query: Toad for Oracle (exact=True)
+2025-11-28 04:05:34 - Trying strategy: No Spaces with query: ToadforOracle (exact=True)
+2025-11-28 04:05:34 - Trying strategy: First Two Words with query: Toad for (exact=False)
+2025-11-28 04:05:35 - Attempting multi-word validation with 3 words
+2025-11-28 04:05:38 - Skipping invalid ID (looks like version): 15722UsefulApp.WorkspaceLauncherForVSCode
+2025-11-28 04:05:46 - No package found for: Toad for Oracle
+2025-11-28 04:05:47 - Starting intelligent search for: RStudio 2023.09.1
+2025-11-28 04:05:47 - Found in known apps database (direct): Posit.RStudio
+2025-11-28 04:05:49 - Starting intelligent search for: Jupyter Notebook
+2025-11-28 04:05:49 - Found in known apps database (direct): Anaconda.Anaconda3
+2025-11-28 04:05:52 - Starting intelligent search for: Anaconda Navigator 2.5.0
+2025-11-28 04:05:52 - Found in known apps database (direct): Anaconda.Anaconda3
+2025-11-28 04:05:56 - Starting intelligent search for: MATLAB R2023b
+2025-11-28 04:05:56 - Trying strategy: Exact Match with query: MATLAB R2023b (exact=True)
+2025-11-28 04:05:57 - Trying strategy: Cleaned Name with query: MATLAB R2023b (exact=True)
+2025-11-28 04:05:58 - Trying strategy: Split CamelCase with query: MATLAB R2023b (exact=True)
+2025-11-28 04:05:59 - Trying strategy: Without Version with query: MATLAB R2023b (exact=True)
+2025-11-28 04:06:00 - Trying strategy: Hyphen to Space with query: MATLAB R2023b (exact=True)
+2025-11-28 04:06:02 - Trying strategy: No Spaces with query: MATLABR2023b (exact=True)
+2025-11-28 04:06:04 - Trying strategy: First Two Words with query: MATLAB R2023b (exact=False)
+2025-11-28 04:06:05 - Attempting multi-word validation with 2 words
+2025-11-28 04:06:13 - No package found for: MATLAB R2023b
+2025-11-28 04:06:14 - Starting intelligent search for: Tableau Desktop 2023.3
+2025-11-28 04:06:14 - Found in known apps database (direct): Tableau.Desktop
+2025-11-28 04:06:18 - Starting intelligent search for: Power BI Desktop
+2025-11-28 04:06:18 - Found in known apps database (direct): Microsoft.PowerBI
+2025-11-28 04:06:19 - Starting intelligent search for: QlikView 12.70
+2025-11-28 04:06:19 - Trying strategy: Exact Match with query: QlikView 12.70 (exact=True)
+2025-11-28 04:06:21 - Trying strategy: Cleaned Name with query: QlikView (exact=True)
+2025-11-28 04:06:22 - Trying strategy: Split CamelCase with query: Qlik View 12.70 (exact=True)
+2025-11-28 04:06:23 - Trying strategy: Without Version with query: QlikView (exact=True)
+2025-11-28 04:06:24 - Trying strategy: Hyphen to Space with query: QlikView 12.70 (exact=True)
+2025-11-28 04:06:27 - Trying strategy: No Spaces with query: QlikView12.70 (exact=True)
+2025-11-28 04:06:28 - No package found for: QlikView 12.70
+2025-11-28 04:06:28 - Starting intelligent search for: Apache OpenOffice 4.1.14
+2025-11-28 04:06:28 - Trying strategy: Exact Match with query: Apache OpenOffice 4.1.14 (exact=True)
+2025-11-28 04:06:29 - Trying strategy: Cleaned Name with query: Apache OpenOffice (exact=True)
+2025-11-28 04:06:32 - Trying strategy: Split CamelCase with query: Apache Open Office 4.1.14 (exact=True)
+2025-11-28 04:06:35 - Trying strategy: Without Version with query: Apache OpenOffice (exact=True)
+2025-11-28 04:06:36 - Trying strategy: Hyphen to Space with query: Apache OpenOffice 4.1.14 (exact=True)
+2025-11-28 04:06:37 - Trying strategy: No Spaces with query: ApacheOpenOffice4.1.14 (exact=True)
+2025-11-28 04:06:39 - Trying strategy: First Two Words with query: Apache OpenOffice (exact=False)
+2025-11-28 04:06:40 - Attempting multi-word validation with 2 words
+2025-11-28 04:06:48 - No package found for: Apache OpenOffice 4.1.14
+2025-11-28 04:06:48 - Starting intelligent search for: LibreOffice 7.6.3
+2025-11-28 04:06:48 - Found in known apps database (direct): TheDocumentFoundation.LibreOffice
+2025-11-28 04:06:50 - Starting intelligent search for: WPS Office 2016
+2025-11-28 04:06:50 - Trying strategy: Exact Match with query: WPS Office 2016 (exact=True)
+2025-11-28 04:06:51 - Trying strategy: Cleaned Name with query: WPS Office 2016 (exact=True)
+2025-11-28 04:06:52 - Trying strategy: Split CamelCase with query: WPS Office 2016 (exact=True)
+2025-11-28 04:06:55 - Trying strategy: Without Version with query: WPS Office 2016 (exact=True)
+2025-11-28 04:06:55 - Trying strategy: Hyphen to Space with query: WPS Office 2016 (exact=True)
+2025-11-28 04:06:56 - Trying strategy: No Spaces with query: WPSOffice2016 (exact=True)
+2025-11-28 04:06:57 - Trying strategy: First Two Words with query: WPS Office (exact=False)
+2025-11-28 04:07:00 - Found via First Two Words: Kingsoft.WPSOffice
+2025-11-28 04:07:01 - Starting intelligent search for: FreeOffice 2021
+2025-11-28 04:07:01 - Trying strategy: Exact Match with query: FreeOffice 2021 (exact=True)
+2025-11-28 04:07:02 - Trying strategy: Cleaned Name with query: FreeOffice 2021 (exact=True)
+2025-11-28 04:07:04 - Trying strategy: Split CamelCase with query: Free Office 2021 (exact=True)
+2025-11-28 04:07:05 - Trying strategy: Without Version with query: FreeOffice 2021 (exact=True)
+2025-11-28 04:07:06 - Trying strategy: Hyphen to Space with query: FreeOffice 2021 (exact=True)
+2025-11-28 04:07:10 - Trying strategy: No Spaces with query: FreeOffice2021 (exact=True)
+2025-11-28 04:07:12 - Trying strategy: First Two Words with query: FreeOffice 2021 (exact=False)

@@ -1,0 +1,342 @@
+<Window xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
+        xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+        Title='Winget Package Discovery Tool' Height='900' Width='1600'
+        WindowStartupLocation='CenterScreen' FontFamily='Segoe UI'
+        Background='#F5F5F5' ResizeMode='CanResize' WindowState='Maximized'>
+    <Grid Margin='20'>
+        <Grid.RowDefinitions>
+            <RowDefinition Height='Auto' />
+            <RowDefinition Height='Auto' />
+            <RowDefinition Height='*' />
+            <RowDefinition Height='Auto' />
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <Border Grid.Row='0' Background='White' CornerRadius='8' Padding='20' Margin='0,0,0,15'>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='Auto' />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column='0'>
+                    <TextBlock Text='Winget Package Discovery Tool' FontSize='24' FontWeight='Bold' Foreground='#2C3E50' Margin='0,0,0,5'/>
+                    <TextBlock Text='Intelligent search for Winget package IDs from application lists' FontSize='13' Foreground='#7F8C8D'/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column='1' Orientation='Horizontal' VerticalAlignment='Center'>
+                    <Button Name='ImportBtn' Content='Import File' Width='140' Height='40' Margin='0,0,10,0'
+                            Background='#3498DB' Foreground='White' BorderThickness='0' Cursor='Hand' FontSize='14' FontWeight='SemiBold'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#3498DB'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#2980B9'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    
+                    <Button Name='SearchAllBtn' Content='Search All' Width='140' Height='40' Margin='0,0,10,0'
+                            Background='#27AE60' Foreground='White' BorderThickness='0' Cursor='Hand' 
+                            FontSize='14' FontWeight='SemiBold' IsEnabled='False'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#27AE60'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#229954'/>
+                                    </Trigger>
+                                    <Trigger Property='IsEnabled' Value='False'>
+                                        <Setter Property='Background' Value='#BDC3C7'/>
+                                        <Setter Property='Opacity' Value='0.6'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    
+                    <Button Name='ExportBtn' Content='Export Results' Width='140' Height='40' Margin='0,0,10,0'
+                            Background='#9B59B6' Foreground='White' BorderThickness='0' Cursor='Hand' 
+                            FontSize='14' FontWeight='SemiBold' IsEnabled='False'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#9B59B6'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#8E44AD'/>
+                                    </Trigger>
+                                    <Trigger Property='IsEnabled' Value='False'>
+                                        <Setter Property='Background' Value='#BDC3C7'/>
+                                        <Setter Property='Opacity' Value='0.6'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    
+                    <Button Name='ClearBtn' Content='Clear' Width='100' Height='40' Margin='0,0,10,0'
+                            Background='#95A5A6' Foreground='White' BorderThickness='0' Cursor='Hand' FontSize='14' FontWeight='SemiBold'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#95A5A6'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#7F8C8D'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    
+                    <Button Name='UpdateDatabaseBtn' Content='Learn from Results' Width='180' Height='40' Margin='0,0,10,0'
+                            Background='#16A085' Foreground='White' BorderThickness='0' Cursor='Hand' FontSize='14' FontWeight='SemiBold' IsEnabled='False'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#16A085'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#138D75'/>
+                                    </Trigger>
+                                    <Trigger Property='IsEnabled' Value='False'>
+                                        <Setter Property='Background' Value='#BDC3C7'/>
+                                        <Setter Property='Opacity' Value='0.6'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    
+                    <Button Name='CancelBtn' Content='Cancel' Width='100' Height='40' Visibility='Collapsed'
+                            Background='#E74C3C' Foreground='White' BorderThickness='0' Cursor='Hand' FontSize='14' FontWeight='SemiBold'>
+                        <Button.Style>
+                            <Style TargetType='Button'>
+                                <Setter Property='Background' Value='#E74C3C'/>
+                                <Setter Property='Template'>
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType='Button'>
+                                            <Border Background='{TemplateBinding Background}' CornerRadius='6' Padding='15,10'>
+                                                <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property='IsMouseOver' Value='True'>
+                                        <Setter Property='Background' Value='#C0392B'/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Statistics Section -->
+        <Border Grid.Row='1' Background='White' CornerRadius='8' Padding='20' Margin='0,0,0,15'>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='*' />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column='0'>
+                    <TextBlock Text='Total Applications' FontSize='12' Foreground='#7F8C8D' Margin='0,0,0,5'/>
+                    <TextBlock Name='TotalAppsText' Text='0' FontSize='32' FontWeight='Bold' Foreground='#3498DB'/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column='1'>
+                    <TextBlock Text='Packages Found' FontSize='12' Foreground='#7F8C8D' Margin='0,0,0,5'/>
+                    <TextBlock Name='FoundText' Text='0' FontSize='32' FontWeight='Bold' Foreground='#27AE60'/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column='2'>
+                    <TextBlock Text='Not Found' FontSize='12' Foreground='#7F8C8D' Margin='0,0,0,5'/>
+                    <TextBlock Name='NotFoundText' Text='0' FontSize='32' FontWeight='Bold' Foreground='#E74C3C'/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column='3'>
+                    <TextBlock Text='Auto Mapped' FontSize='12' Foreground='#7F8C8D' Margin='0,0,0,5'/>
+                    <TextBlock Name='AutoMappedText' Text='0' FontSize='32' FontWeight='Bold' Foreground='#9B59B6'/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column='4'>
+                    <TextBlock Text='Success Rate' FontSize='12' Foreground='#7F8C8D' Margin='0,0,0,5'/>
+                    <TextBlock Name='SuccessRateText' Text='0%' FontSize='32' FontWeight='Bold' Foreground='#16A085'/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- DataGrid Section -->
+        <Border Grid.Row='2' Background='White' CornerRadius='8' Padding='0'>
+            <DataGrid Name='ApplicationDataGrid' 
+                      AutoGenerateColumns='False' 
+                      CanUserAddRows='False'
+                      CanUserDeleteRows='False'
+                      SelectionMode='Single'
+                      HeadersVisibility='Column'
+                      GridLinesVisibility='Horizontal'
+                      Background='White'
+                      RowBackground='White'
+                      AlternatingRowBackground='#F8F9FA'
+                      BorderThickness='0'
+                      FontSize='13'>
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Name='UndoMappingMenuItem' Header='Undo Mapping (Mark as Not Found)' />
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header='#' Binding='{Binding RowNumber}' Width='50'/>
+                    <DataGridTextColumn Header='Application Name' Binding='{Binding ApplicationName}' Width='250'/>
+                    <DataGridTextColumn Header='Winget ID' Binding='{Binding WingetID}' Width='200'/>
+                    <DataGridTextColumn Header='Matched Name' Binding='{Binding MatchedName}' Width='200'/>
+                    <DataGridTextColumn Header='Version' Binding='{Binding Version}' Width='100'/>
+                    
+                    <DataGridTemplateColumn Header='Status' Width='100'>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius='4' Padding='8,4' HorizontalAlignment='Center'>
+                                    <Border.Style>
+                                        <Style TargetType='Border'>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding='{Binding Status}' Value='Found'>
+                                                    <Setter Property='Background' Value='#D5F4E6'/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding='{Binding Status}' Value='Not Found'>
+                                                    <Setter Property='Background' Value='#FADBD8'/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding='{Binding Status}' Value='Pending'>
+                                                    <Setter Property='Background' Value='#E8F4F8'/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+                                    <TextBlock Text='{Binding Status}' FontWeight='SemiBold' FontSize='12'>
+                                        <TextBlock.Style>
+                                            <Style TargetType='TextBlock'>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding='{Binding Status}' Value='Found'>
+                                                        <Setter Property='Foreground' Value='#27AE60'/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding='{Binding Status}' Value='Not Found'>
+                                                        <Setter Property='Foreground' Value='#E74C3C'/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding='{Binding Status}' Value='Pending'>
+                                                        <Setter Property='Foreground' Value='#3498DB'/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    
+                    <DataGridTextColumn Header='Confidence' Binding='{Binding Confidence}' Width='80'/>
+                    <DataGridTextColumn Header='Search Strategy' Binding='{Binding SearchStrategy}' Width='120'/>
+                    
+                    <DataGridTemplateColumn Header='Action' Width='120'>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name='MapManuallyBtn' Content='Map Manually' 
+                                        Background='#9B59B6' Foreground='White' BorderThickness='0' 
+                                        Padding='10,5' Cursor='Hand' FontSize='11' FontWeight='SemiBold'>
+                                    <Button.Style>
+                                        <Style TargetType='Button'>
+                                            <Setter Property='Background' Value='#9B59B6'/>
+                                            <Setter Property='Template'>
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType='Button'>
+                                                        <Border Background='{TemplateBinding Background}' CornerRadius='4' Padding='{TemplateBinding Padding}'>
+                                                            <ContentPresenter HorizontalAlignment='Center' VerticalAlignment='Center'/>
+                                                        </Border>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                            <Style.Triggers>
+                                                <Trigger Property='IsMouseOver' Value='True'>
+                                                    <Setter Property='Background' Value='#8E44AD'/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+
+        <!-- Footer Section -->
+        <Border Grid.Row='3' Background='White' CornerRadius='8' Padding='15' Margin='0,15,0,0'>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width='*' />
+                    <ColumnDefinition Width='Auto' />
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Column='0' Orientation='Horizontal' VerticalAlignment='Center'>
+                    <TextBlock Name='StatusText' Text='Ready' Foreground='#27AE60' FontSize='13' FontWeight='SemiBold' Margin='0,0,15,0'/>
+                    <TextBlock Name='ProgressText' Text='' Foreground='#7F8C8D' FontSize='12' Visibility='Collapsed'/>
+                </StackPanel>
+                
+                <ProgressBar Grid.Column='1' Name='ProgressBar' Width='300' Height='20' Visibility='Collapsed'
+                            Foreground='#3498DB' Background='#ECF0F1' BorderThickness='0'/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
